@@ -1,0 +1,215 @@
+.our-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+.our-features-first-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+}
+
+.trade-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width:250px;
+    height: Fixed (504px)px;
+    padding: 20px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+}
+.trade-head{
+    width: 160px;
+    height: 26px;
+    top: 1px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--fontfamilyFont1);
+    font-size: var(--fontsize22);
+    font-weight: 500;
+    line-height: var(--lineheight26);
+    letter-spacing: var(--letterspacing-044);
+    text-align: center;
+    color: var(--color-white-solid, #FFFFFF);
+    align-self: center;
+    margin:10px;
+
+}
+.trade-para{
+    width: 208px;
+    height: 143px;
+    top: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--fontfamilyFont1);
+    font-size: var(--fontsize16);
+    font-weight: 400;
+    line-height: var(--lineheight24);
+    text-align: center;
+    color: var(--color-cyan-8570, #B0FAFFB2);
+    align-self: center;
+}
+.trade-image{
+    align-self:center ;
+    margin:20px;
+}
+.market-insight{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+
+}
+.market-insight-one{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: Hug (198px)px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+    width:max-content;
+    margin-left:10px;
+
+   
+}
+.market-insight-inside-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/market-insight-bg.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    height:100%;
+  }
+  
+.market-para{
+    width: 200px;
+}
+.market-insight-details{
+    padding:20px;
+}
+.market-insight-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+    margin-left:10px;
+    margin-top:10px;
+    height:200px;
+    width:max-content;
+    width:98%;
+}
+.our-features-head{
+    text-align: center;
+    font-size:30px;
+    opacity: 0px;
+    color: var(--color-white-solid, #FFFFFF);
+
+}
+.risk-guard-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width:250px;
+    height: Fixed (504px)px;
+    padding: 20px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+    margin-left:10px;
+}
+.our-features-second-part{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+}
+.portfolio-sync-card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+    margin-left:10px;
+    width:37%;
+    margin-top:10px;
+}
+.oppurtunity-socout-card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    opacity: 0px;
+    background: var(--color-cyan-1270, #0C2B2FB2);
+    margin-left:10px;
+    width:40%;
+    margin-top:10px;
+}
+.portfolio-image{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+
+}
+.portfolio-details{
+    padding: 20px;
+}
+.oppurtunity-image{
+    height:100%;
+   width:300px;
+    object-fit: cover;
+    padding:50px;
+    margin-bottom:-60px;
+
+}
+@media screen and (max-width:320px) {
+    .our-features{
+        width:max-content;
+    }
+    .our-features-first-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .our-features-second-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .trade-card{
+        width:150%;
+    }
+    
+}

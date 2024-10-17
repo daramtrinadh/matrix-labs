@@ -1,0 +1,40 @@
+.tokenomics-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height:100vh;
+    background-image:url('../../assets/tokenomics-bg.png') ;
+    padding:20px;
+
+}
+.tokenomics-head{
+    width: 703px;
+    height: 44px;
+    gap: 0px;
+    font-family: var(--fontfamilyFont1);
+    font-size: var(--fontsize40);
+    font-weight: 500;
+    line-height: var(--lineheight44);
+    letter-spacing: var(--letterspacing-08);
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.donut-image{
+    width: 671px;
+    height: 522px;
+    z-index:1;
+}
+.tokenomics-details{
+    width: Hug (538px)px;
+    height: Hug (324px)px;
+    padding: 12px 56px 12px 56px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    background: #0C2B2FB2;
+    backdrop-filter: blur(15.699999809265137px);
+}
