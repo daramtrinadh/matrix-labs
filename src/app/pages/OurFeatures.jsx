@@ -43,8 +43,8 @@ const OurFeatures=()=>{
                     <div className='portfolio-details'>
                         <h1 className='trade-head'>Portfolio Sync</h1>
                         <p className='trade-para'>Easily manage your portfolio. 
-                            You'll always know what you own, how it's performing, 
-                            and where it’s headed.
+                            Youll always know what you own, how its performing, 
+                            and where its headed.
                         </p>
                     </div>
                     <Image src="/portfolio.png" width={130} height={150} className='portfolio-image'/>
